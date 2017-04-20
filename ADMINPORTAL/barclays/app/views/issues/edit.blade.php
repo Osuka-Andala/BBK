@@ -1,0 +1,1 @@
+C:\s\LIMAS\LARAVEL\barclays\app/views/issues/edit.blade.php

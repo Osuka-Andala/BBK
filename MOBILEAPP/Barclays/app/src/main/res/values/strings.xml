@@ -1,0 +1,386 @@
+<resources>
+    <string name="app_name">Barclays Bank</string>
+    <string name="default_media_location_folder">barclays</string>
+
+    <string-array name="nav_drawer_items">
+        <item>HOME</item>
+        <item>REPORT</item>
+        <item>LEADS</item>
+        <item>CHAT</item>
+        <item>EXIT</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_report</item>
+        <item>@drawable/ic_client</item>
+        <item>@drawable/ic_chat</item>
+        <item>@drawable/ic_exit</item>
+
+    </array>
+    <string-array name="nav_drawer_items_desc">
+        <item>The home page</item>
+        <item>Report an issue</item>
+        <item>Save potential customers</item>
+        <item>Communicate with team</item>
+        <item>Exit from the app</item>
+    </string-array>
+
+    //login
+    <string name="login">LOGIN</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+
+    <string name="missing_username">The Username field is required.\nKindly provide this information.</string>
+    <string name="missing_password">The Password field required.\nKindly provide this information.</string>
+
+
+    //notifications
+    <string name="problem_processing">Problems processing the request.\nKindly try again</string>
+
+
+    //image capturing
+    <string name="add_photo">Add Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_photo">Choose from Library</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="pending">Pending</string>
+    <string name="uploaded">Uploaded</string>
+    <string name="success">Success</string>
+
+
+    <string name="device_type">Device Type</string>
+    <string name="merchant">Merchant name</string>
+    <string name="merchant_location">Merchant Location</string>
+    <string name="county">County</string>
+    <string name="town">Town</string>
+    <string name="location">Location</string>
+    <string name="issue">Issue</string>
+    <string name="comments">Comments</string>
+    <string name="serial_no">Serial Number</string>
+
+    <string name="comments_hint">..[type comments here]..</string>
+    <string name="town_hint">..[type town here]..</string>
+    <string name="location_hint">..[type location here]..</string>
+    <string name="issue_hint">..[type issue here]..</string>
+    <string name="serial_no_hint">..[type issue here]..</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    //sample data
+    <string name="missing_merchant">The merchant information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_location">The location information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_issue">The issue information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_user">The user information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_device">The device information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_full_name">The full name information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_telephone">The telephone information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_branch">The nearest branch information is missing.\nKindly provide this information before submission</string>
+    <string name="missing_product">The product information is missing.\nKindly provide this information before submission</string>
+
+    <string-array name="lead_type">
+        <item>Induvidual</item>
+        <item>Corporate</item>
+    </string-array>
+
+    <string-array name="products">
+        <item>Loans </item>
+        <item>Mortgage</item>
+        <item>ATM</item>
+        <item>POS Device</item>
+    </string-array>
+
+    <string name="lead_type">Type of Client</string>
+    <string name="product_type">Product of Interest</string>
+    <string name="full_name">Full Name</string>
+    <string name="telephone">Telephone</string>
+    <string name="nearest_branch">Nearest Branch</string>
+
+    <string name="contact_firstname">Surname</string>
+    <string name="contact_othername">Othername</string>
+    <string name="cellphone">Cellphone</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="designation">Designation</string>
+    <string name="save_profile">SAVE PROFILE</string>
+    <string name="registraton_successful">Registration  successful</string>
+    <string name="registraton_unsuccessful">Registration failed</string>
+
+
+    <string-array name="common_issues">
+        <item>Cannot turn on</item>
+        <item>Device has hang</item>
+        <item>Device is broken</item>
+        <item>Device is out of power</item>
+
+    </string-array>
+
+    <string-array name="towns">
+
+        <item>	Awendo	 </item>
+        <item>	Bondo	 </item>
+        <item>	Bungoma	 </item>
+        <item>	Busia	 </item>
+        <item>	Elburgon	 </item>
+        <item>	Eldama Ravine	 </item>
+        <item>	Eldoret	 </item>
+        <item>	Elwak	 </item>
+        <item>	Embu	 </item>
+        <item>	Garissa	 </item>
+        <item>	Gilgil	 </item>
+        <item>	Githunguri	 </item>
+        <item>	Hola	 </item>
+        <item>	Homa Bay	 </item>
+        <item>	Isiolo	 </item>
+        <item>	Juja	 </item>
+        <item>	Kabarnet	 </item>
+        <item>	Kajiado	 </item>
+        <item>	Kakamega	 </item>
+        <item>	Kakuma	 </item>
+        <item>	Kangundo-Tala	 </item>
+        <item>	Kapenguria	 </item>
+        <item>	Kapsabet	 </item>
+        <item>	Karuri	 </item>
+        <item>	Kehancha	 </item>
+        <item>	Kericho	 </item>
+        <item>	Kerugoya/Kutus	 </item>
+        <item>	Kiambu	 </item>
+        <item>	Kikuyu	 </item>
+        <item>	Kilgoris	 </item>
+        <item>	Kilifi	 </item>
+        <item>	Kimilili	 </item>
+        <item>	Kiserian	 </item>
+        <item>	Kisii	 </item>
+        <item>	Kisumu	 </item>
+        <item>	Kitale	 </item>
+        <item>	Kitengela	 </item>
+        <item>	Kitui	 </item>
+        <item>	Lamu	 </item>
+        <item>	Limuru	 </item>
+        <item>	Lodwar	 </item>
+        <item>	Lokichogio	 </item>
+        <item>	Machakos	 </item>
+        <item>	Madogo	 </item>
+        <item>	Mai Mahiu	 </item>
+        <item>	Mairo Inya	 </item>
+        <item>	Malaba	 </item>
+        <item>	Malindi	 </item>
+        <item>	Mandera	 </item>
+        <item>	Maralal	 </item>
+        <item>	Mariakani	 </item>
+        <item>	Marsabit	 </item>
+        <item>	Masalani	 </item>
+        <item>	Matuu	 </item>
+        <item>	Maua	 </item>
+        <item>	Mavoko (Athi River)	 </item>
+        <item>	Mbita Point	 </item>
+        <item>	Meru	 </item>
+        <item>	Migori	 </item>
+        <item>	Moi\'s Bridge	 </item>
+        <item>	Molo	 </item>
+        <item>	Mombasa	 </item>
+        <item>	Moyale	 </item>
+        <item>	Msambweni	 </item>
+        <item>	Mtwapa	 </item>
+        <item>	Muhoroni	 </item>
+        <item>	Mumias	 </item>
+        <item>	Murang\'a	 </item>
+        <item>	Mwingi	 </item>
+        <item>	Nairobi	 </item>
+        <item>	Naivasha	 </item>
+        <item>	Nakuru	 </item>
+        <item>	Nanyuki	 </item>
+        <item>	Narok	 </item>
+        <item>	Ngong	 </item>
+        <item>	Njoro	 </item>
+        <item>	Nyahururu	 </item>
+        <item>	Nyamira	 </item>
+        <item>	Nyeri	 </item>
+        <item>	Ongata Rongai	 </item>
+        <item>	Rhamu	 </item>
+        <item>	Rongo	 </item>
+        <item>	Ruiru	 </item>
+        <item>	Sagana	 </item>
+        <item>	Siaya	 </item>
+        <item>	Tabaka	 </item>
+        <item>	Takaba	 </item>
+        <item>	Taveta	 </item>
+        <item>	Thika	 </item>
+        <item>	Ukunda	 </item>
+        <item>	Usenge	 </item>
+        <item>	Vihiga	 </item>
+        <item>	Voi	 </item>
+        <item>	Wajir	 </item>
+        <item>	Wanguru	 </item>
+        <item>	Watamu	 </item>
+        <item>	Webuye	 </item>
+        <item>	Wote	 </item>
+
+
+    </string-array>
+
+    <string-array name="counties_ke">
+        <item>Nairobi</item>
+        <item>Baringo</item>
+        <item>Bomet</item>
+        <item>Bungoma</item>
+        <item>Busia</item>
+        <item>Elgeyo Marakwet</item>
+        <item>Embu</item>
+        <item>Garissa</item>
+        <item>Homa Bay</item>
+        <item>Isiolo</item>
+        <item>Kajiado</item>
+        <item>Kakamega</item>
+        <item>Kericho</item>
+        <item>Kiambu</item>
+        <item>Kilifi</item>
+        <item>Kirinyaga</item>
+        <item>Kisii</item>
+        <item>Kisumu</item>
+        <item>Kitui</item>
+        <item>Kwale</item>
+        <item>Laikipia</item>
+        <item>Lamu</item>
+        <item>Machakos</item>
+        <item>Makueni</item>
+        <item>Mandera</item>
+        <item>Meru</item>
+        <item>Migori</item>
+        <item>Marsabit</item>
+        <item>Mombasa</item>
+        <item>Muranga</item>
+        <item>Nairobi</item>
+        <item>Nakuru</item>
+        <item>Nandi</item>
+        <item>Narok</item>
+        <item>Nyamira</item>
+        <item>Nyandarua</item>
+        <item>Nyeri</item>
+        <item>Samburu</item>
+        <item>Siaya</item>
+        <item>Taita Taveta</item>
+        <item>Tana River</item>
+        <item>Tharaka Nithi</item>
+        <item>Trans Nzoia</item>
+        <item>Turkana</item>
+        <item>Uasin Gishu</item>
+        <item>Vihiga</item>
+        <item>Wajir</item>
+        <item>West Pokot</item>
+    </string-array>
+
+
+    <!--the call stuff-->
+    <string name="action_log_out">Log out</string>
+    <string name="login_as">Login as</string>
+    <string name="logged_in_as">Logged In as</string>
+    <string name="outputing_audio_call">Outputing Audio Call - </string>
+    <string name="incoming_call">Incoming Call</string>
+    <string name="also_on_call">Also on call:</string>
+    <string name="edit_opponents_list">Edit opponents list</string>
+    <string name="incoming_audio_call">Incoming Audio Call</string>
+    <string name="incoming_video_call">Incoming Video Call</string>
+    <string name="connect">Connect...</string>
+    <string name="checking">Checking...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+
+    <string name="users_tag">webrtcusers</string>
+
+    <string name="welcoming_message">Login as any user on this deviсe and another(s) users on another device</string>
+    <string name="select_user_to_call">Select Users You Want to Call</string>
+
+
+    <string name="btn_audio_call">AUDIO CALL</string>
+    <string name="btn_video_call">VIDEO CALL</string>
+    <string name="opponentsListActionBarTitle"><![CDATA[Video & Audio Group Chat Sample]]></string>
+    <string name="current_version">0.9.1</string>
+    <string name="rejected">Rejected</string>
+    <string name="noAnswer">No answer</string>
+    <string name="hungUp">Hung up</string>
+    <string name="closed">Closed</string>
+    <string name="time_out">Time Out</string>
+    <string name="failed">Failed</string>
+    <string name="WIFI_DISABLED">Call was stoped because connection was lost</string>
+    <string name="NETWORK_ABSENT">Connection lost</string>
+
+    <!-- Dialogs strings. -->
+    <string name="dlg_signal_error">Disconnected... Please check your Internet connection!</string>
+
+    <color name="blue_green">#008080</color>
+    <color name="grey">#606060</color>
+    <color name="gold">#FFD700</color>
+    <color name="spring_bud">#A7FC00</color>
+    <color name="water_bondi_beach">#0095B6</color>
+    <color name="coral">#FF4040</color>
+    <color name="may_green">#4C9141</color>
+    <color name="mauveine">#EF0097</color>
+    <color name="orange">#FFA500</color>
+    <color name="gentianaceae_blue">#2A6478</color>
+    <color name="blue_krayola">#1F75FE</color>
+    <color name="white_blue">#00BFFF</color>
+    <color name="pink">#FF7A7A</color>
+    <color name="white_green">#A9FF80</color>
+    <color name="black_transparent_30">#30000000</color>
+    <color name="black_transparent_50">#50000000</color>
+    <color name="white_transparent_80">#80FFFFFF</color>
+
+    <!-- Settings strings. -->
+    <string name="pref_default_value">Default</string>
+
+    <string name="pref_resolution_key">resolution_preference</string>
+    <string name="pref_resolution_title">Video resolution.</string>
+    <string name="pref_resolution_dlg">Enter RTC local video resolution.</string>
+    <string name="pref_resolution_default">-1</string>
+
+    <string name="pref_fps_key">fps_preference</string>
+    <string name="pref_fps_title">Camera fps.</string>
+    <string name="pref_fps_dlg">Enter local camera fps.</string>
+    <string name="pref_fps_default">0</string>
+
+    <string name="pref_startbitrate_key">startbitrate_preference</string>
+    <string name="pref_startbitrate_title">Start bitrate setting.</string>
+    <string name="pref_startbitrate_dlg">Start bitrate setting.</string>
+    <string name="pref_startbitrate_default">Default</string>
+
+    <string name="pref_startbitratevalue_key">startbitratevalue_preference</string>
+    <string name="pref_startbitratevalue_title">Video encoder start bitrate.</string>
+    <string name="pref_startbitratevalue_dlg">Enter video encoder start bitrate in kbps.(Max is 2000)</string>
+    <string name="pref_startbitratevalue_default">1000</string>
+
+    <string name="pref_videocodec_key">videocodec_preference</string>
+    <string name="pref_videocodec_title">Default video codec.</string>
+    <string name="pref_videocodec_dlg">Select default video codec.</string>
+    <string name="pref_videocodec_default">0</string>
+
+    <string name="pref_hwcodec_key">hwcodec_preference</string>
+    <string name="pref_hwcodec_title">Video codec hardware acceleration.</string>
+    <string name="pref_hwcodec_dlg">Use hardware accelerated video codec (if available).</string>
+    <string name="pref_hwcodec_default">true</string>
+
+    <string name="pref_value_enabled">Enabled</string>
+    <string name="pref_value_disabled">Disabled</string>
+
+    <string name="pref_room_server_url_key">room_server_url_preference</string>
+    <string name="pref_room_server_url_title">Room server URL.</string>
+    <string name="pref_room_server_url_dlg">Enter a room server URL.</string>
+    <string name="pref_room_server_url_default" translatable="false">https://apprtc.appspot.com</string>
+
+    <string name="pref_displayhud_key">displayhud_preference</string>
+    <string name="pref_displayhud_title">Display call statistics.</string>
+    <string name="pref_displayhud_dlg">Display call statistics.</string>
+    <string name="pref_displayhud_default" translatable="false">false</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_audiocodec_key">pref_audio_codec</string>
+    <string name="pref_audiocodec_title">Default audio codec</string>
+    <string name="pref_audiocodec_def">ISAC</string>
+    <string name="pref_audiocodec_dlg">Select default audio codec</string>
+    <string name="btn_screen_capture">screenShot</string>
+    <string name="accepted">Accepted</string>
+
+</resources>

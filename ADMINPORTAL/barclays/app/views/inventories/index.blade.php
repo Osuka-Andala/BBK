@@ -1,0 +1,1 @@
+C:\s\LIMAS\LARAVEL\barclays\app/views/inventories/index.blade.php

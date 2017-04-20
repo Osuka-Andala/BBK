@@ -1,0 +1,52 @@
+{
+	"records_params":{
+		"transaction_types":["income","expense"],
+		"record_type":["personal","business"],
+		"vendors":["vendor A","vendor B","vendor C"],
+		"categories":[
+			{
+				"name":"Occupancy costs",
+				"sub_categories":[
+					"Rent",
+					"Mortgage interest",
+					"Building depreciation",
+					"Leasehold improvements",
+					"Property taxes",
+					"Construction design and mgnt"
+				]
+			},
+			{
+				"name":"Utilities",
+				"sub_categories":[
+					"Electricity",
+					"Gas",
+					"Heat",
+					"Water/Sewer",
+					"Trash Removal",
+					"Other Utilities"
+				]
+			},
+			{
+				"name":"Maintenance Costs",
+				"sub_categories":[
+					"Salaries",
+					"Contracted Services",
+					"Supplies",
+					"Travel",
+					"Other Maintenance Costs"
+				]
+			},
+			{
+				"name":"Cleaning Costs",
+				"sub_categories":[
+					"Cleaning Salary",
+					"Janitorial Service",
+					"Cleaning Supplies",
+					"Other Cleaning Costs"
+				]
+			}
+		],
+		"payment_types":["debit","credit","cash"],
+		"currency":["KES","USD"]
+	}
+}
